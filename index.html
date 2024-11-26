@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            padding: 5px;
+            gap: 10px;  
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+        }
+        .div1 , .div2 , .div3{
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 10px;
+        }
+        .div1 div{
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            border-radius: 15px;
+            background-color: aqua;
+        }
+        .div2 div{
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            border-radius: 15px;
+            padding: 5px;
+        }
+        .div3 div{
+            border: 2px solid black;
+            width: 80px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            border-radius: 15px;`
+        }
+        .div2 .d2{
+            flex-grow: 2;
+            justify-content: center;
+        }
+        .div3 .d2{
+            flex-shrink: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="background-color: yellow;" class="main">
+        <div style="background-color: pink;" class="div1">
+            <div class="d1"><h1>Karthik</h1></div>
+            <div class="d2"><h1>Prabhas</h1></div>
+            <div class="d3"><h1>Nivetha</h1></div>
+            <div class="d4"><h1>Honey</h1></div>
+        </div>
+        <div style="background-color:thistle;" class="div2">
+            <div class="d1"><img src="./images/Nayani Karthik.JPG" height="100px" width="90px" alt="" ></div>
+            <div class="d2"><img src="./images/prabhas 1.jpg" height="100px" width="90px" alt=""></div>
+            <div class="d3"><img src="./images/nivetha thomas 3.jpg" height="100px" width="90px" alt=""></div>
+            <div class="d4"><img src="./images/rohit 2 for.webp" height="100px" width="90px" alt=""></div>
+        </div>
+        <div style="background-color: slategray;" class="div3">
+            <div style="background-color: antiquewhite;" class="d1"><h3>Think before doing</h3></div>
+            <div style="background-color: aquamarine;" class="d2"><h3>Don't think after doing</h3></div>
+            <div style="background-color:yellowgreen;" class="d3"><h3>Then,Life is Beautiful</h3></div>
+            <div style="background-color: tomato;" class="d4"><h3>By all God blessing's</h3></div>
+        </div>
+    </div>
+</body>
+</html>
